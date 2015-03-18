@@ -1,0 +1,51 @@
+body{
+	font-family: Arial;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+#app{
+	width: 300px;
+	margin: 0 auto;
+}
+
+.todo-app input{
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+.todo-app  ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.todo-app  li{
+	overflow: hidden;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	padding: 10px 5px;
+}
+
+.todo-app button{
+	width: 100%;
+	background: #ddd;
+	color: #fff;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	text-align: center;
+	border: 0;
+	margin-top: 10px;
+	font-size: 14px;
+	padding: 10px;
+	cursor: pointer;
+	outline: none;
+}
+
+.todo-app button:hover{
+	background: #ccc;
+}
